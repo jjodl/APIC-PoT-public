@@ -45,16 +45,8 @@ helps to solve..**
 ## Lab sections:
 
 |  Topic                                | Description                                                                
-|---------------------------------------|-----------------------------------------------------------------------------|
-| [Integration Labs](ACE-labs/index.md)         | This section will cover labs using both the ACE Toolkit and ACE Designer to build integrations. When creating APIs with Designer you will also import them into APIC. | 
 |---------------------------------------|-----------------------------------------------------------------------------|     
-| [APIC Labs](APIC-labs-new/ReadMe.md)          | This section you will explore the following key capabilities, Creating an API by importing an OpenAPI definition for an existing REST service, Configuring ClientID/Secret Security endpoints, and proxy to invoke endpoint.  Also testing a REST API in the online developer toolkit and publish an API for developers. |  
-|---------------------------------------|-----------------------------------------------------------------------------|     
-| [Event Endpoint Labs](Event_EndPoint/index.md)          | This section you will explore Event Endpoint Async APIs.**This lab is being worked on** | 
-|---------------------------------------|-----------------------------------------------------------------------------|     
-| [Aspera Labs](Aspera/index.md)          | This section you will explore Aspera file transfer. **This lab is being worked on** | 
-|---------------------------------------|-----------------------------------------------------------------------------|
-| [MQ Labs](MQ-labs/index.md)         |  Setup MQ within Cloud Pak for Integration.   Will cover varies topics around Multinstnace Queue Managers, MQ Uniform Clusters,Native HA, and Tekton pipeline in OpenShift Cluster |                                     
+| [APIC Labs](APIC-labs-new/ReadMe.md)          | This section you will explore the following key capabilities, Creating an API by importing an OpenAPI definition for an existing REST service, Configuring ClientID/Secret Security endpoints, and proxy to invoke endpoint.  Also testing a REST API in the online developer toolkit and publish an API for developers. |                                     
 
 
                  
