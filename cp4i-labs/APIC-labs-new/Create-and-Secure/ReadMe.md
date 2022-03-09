@@ -245,59 +245,50 @@ Once saved, you will see an indicator window appear that shows that **Your API h
 
 ![alt text][pic23]
 
-7\. For the **Security Definition Name (Key)**, enter a name (e.g., **X-IBM-Client-Id**) and select **apiKey** in the drop-down menu for **Security Definition Type**.
+7\. We will now secure the API. On the left-hand side, let’s click on **Security Schemes**. 
 
-![alt text][pic24]
+Click on the **+** and we will start adding the Client ID.
 
-8\. For the **Name**, enter a name (e.g., **X-IBM-Client-Id**), select **client_id** from the drop-down menu for **Key Type (optional)**, and select **header** from the drop-down menu for **Located In**.  Click **Create**.
+![alt text][pic11a]
 
-![alt text][pic25]
+8\. We will first create a client-id filling in the page with the following info.  
+* Enter "Client-id" for the Name of the key.
+* For the Security Definition Type click on the drop down and select **apiKey**.
 
-9\. Click **Save**.
+![alt text][pic12a]
 
-![alt text][pic26]
+9\. After you select apiKey, the following window will open.  Finish filling it in with the rest of the info and click **Create**. 
 
-10\. Once saved, you will see an indicator window appear that shows that **Your API has been updated**.  Click on the **X** to close the window.
+![alt text][pic13a]
 
-![alt text][pic22]
+10\. Repeat steps 1 to 3 to create the Client-secret as a Type **client_secret**.  It should look like the following screen:
 
-11\. Make sure that the **Design** tab is selected and click on the **+** next to **Security Schemes**.
+![alt text][pic13aa]
 
-![alt text][pic31]
+11\. You should now have a Client-id and Client-secret for your Security Schemes (2).
 
-12\. For the **Security Definition Name (Key)**, enter a name (e.g., **X-IBM-Client-Secret**) and select **apiKey** in the drop-down menu for **Security Definition Type**.
+![alt text][pic13ba]
 
-![alt text][pic32]
+12\. Go to the Security under Produces and click the **+** to add our security.
+* Click the Client-id and the Client-secret and then click **Create**.
 
-13\. For the **Name**, enter a name (e.g., **X-IBM-Client-Secret**), select **client_secret** from the drop-down menu for **Key Type (optional)**, and select **header** from the drop-down menu for **Located In**.  Click **Create**.
+![alt text][pic14a]
 
-![alt text][pic33]
+13\. Once you have selected both, click on **Submit**.  Also go to the upper right and click on **Save** to save all your updates. 
 
-14\. Click **Save**.
+![alt text][pic14aa]
 
-![alt text][pic26]
+[pic11a]: images/11a.png
+[pic12a]: images/12a.png
+[pic13a]: images/13a.png
+[pic13aa]: images/13aa.png
+[pic13ba]: images/13ba.png
+[pic14a]: images/14a.png
+[pic14aa]: images/14aa.png
 
-15\. Once saved, you will see an indicator window appear that shows that **Your API has been updated**.  Click on the **X** to close the window.
 
-![alt text][pic22]
 
-16\. Make sure that the **Design** tab is selected and click on the **+** next to **Security**.
-
-![alt text][pic34]
-
-17\. Select **"X-IBM-Client-Id"** and **"X-IBM-Client-Secret"** and click **Create**.
-
-![alt text][pic35]
-
-18\. Click **Submit**.
-
-![alt text][pic37]
-
-19\. Click **Save**.
-
-![alt text][pic26]
-
-20\. Once saved, you will see an indicator window appear that shows that **Your API has been updated**.  Click on the **X** to close the window.
+14\. Once saved, you will see an indicator window appear that shows that **Your API has been updated**.  Click on the **X** to close the window.
 
 ![alt text][pic22]
 
